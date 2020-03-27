@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <IsPackable>false</IsPackable>
+    <NoWarn>$(NoWarn);CS2008</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--<None Include="..\.gitattributes" Link=".gitattributes" />-->
+    <!--<None Include="..\.gitignore" Link=".gitignore" />-->
+    <!--<None Include="..\*" Exclude="..\*.sln" Link="%(Filename)%(Extension)" />-->
+    <!--<None
+      Include="..\**"
+      Exclude="..\github.io\**;..\*.sln;..\**\.git\**;..\**\.vs\**"
+      Link="%(RecursiveDir)%(Filename)%(Extension)"
+    />-->
+    <None Include="..\**" Link="%(RecursiveDir)%(Filename)%(Extension)" />
+    <None Remove="..\github.io\**" />
+    <None Remove="..\*.sln" />
+    <None Remove="..\**\.git\**" />
+    <None Remove="..\**\.vs\**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+# 客串
+
+- [Google](https://www.google.com/)
+- [Google Scholar](https://scholar.google.com/)
+- [Bing](https://cn.bing.com/)
+- [Yahoo](https://search.yahoo.com/)
+- [Wikipedia](https://zh.wikipedia.org)
+- [Microsoft Docs](https://docs.microsoft.com/zh-cn/)
+- [Microsoft Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html)
+- [Stack Overflow](https://stackoverflow.com/)
+- [GitHub](https://github.com/)
+- [TypeScript](https://www.typescriptlang.org/docs/home.html)
+- [Angular](https://angular.io/start)
+- [Vuejs](https://vuejs.bootcss.com/v2/guide/)
+- [.NET Core 指南](https://docs.microsoft.com/zh-cn/dotnet/core/)
+- [Echartsjs](https://www.echartsjs.com/zh/index.html)
