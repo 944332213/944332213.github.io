@@ -10,12 +10,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{BDA24E63-F775-4AD7-A4B5-99641C5C5924}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{E2F973D9-DE05-4C65-A304-5FDA3208BF1A}"
 	ProjectSection(SolutionItems) = preProject
-		docs\index.html = docs\index.html
+		index.html = index.html
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "resources", "resources\resources.shproj", "{C6F3B145-0E9F-4853-B591-137F2F48C29E}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		resources\resources.projitems*{c6f3b145-0e9f-4853-b591-137f2f48c29e}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
